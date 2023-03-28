@@ -1,0 +1,26 @@
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\appsettings.Development.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\appsettings.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\ISMT Mart.staticwebassets.runtime.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\ISMT Mart.exe
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\ISMT Mart.deps.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\ISMT Mart.runtimeconfig.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\ISMT Mart.dll
+G:\OCG\Razor Pages\Project 1\ISMT Mart\bin\Debug\net6.0\ISMT Mart.pdb
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.csproj.AssemblyReference.cache
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.GeneratedMSBuildEditorConfig.editorconfig
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.AssemblyInfoInputs.cache
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.AssemblyInfo.cs
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.csproj.CoreCompileInputs.cache
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.MvcApplicationPartsAssemblyInfo.cache
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.RazorAssemblyInfo.cache
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.RazorAssemblyInfo.cs
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\staticwebassets.build.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\staticwebassets.development.json
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\scopedcss\bundle\ISMT Mart.styles.css
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\scopedcss\projectbundle\ISMT Mart.bundle.scp.css
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.dll
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\refint\ISMT Mart.dll
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.pdb
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ISMT Mart.genruntimeconfig.cache
+G:\OCG\Razor Pages\Project 1\ISMT Mart\obj\Debug\net6.0\ref\ISMT Mart.dll

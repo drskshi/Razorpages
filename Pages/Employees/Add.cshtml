@@ -1,0 +1,38 @@
+﻿@page
+@model ISMT_Mart.Pages.Employees.AddModel
+@{
+    var message = ViewData["Message"]?.ToString();
+}
+<h1>Welcome to staff pages</h1>
+
+<p style="color:red;"><sup>*</sup><i>You are required to fill the form</i></p>
+
+@if (!string.IsNullOrWhiteSpace(message))
+{
+    <div class="alert alert-primary" role="alert">
+        @message
+    </div>
+}
+
+<form method="post" style="width:30%; margin:5px;">
+  <div class="form-group">
+    <label for="exampleInputPassword1">Name</label>
+    <input type="text" class="form-control" placeholder="Enter your name" asp-for="AddEmployeeRequest.Name"/>
+    <small id="emailHelp" class="form-text text-muted">Enter the full name.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control"  placeholder="Enter email"  asp-for="AddEmployeeRequest.Email"/>
+    <small id="emailHelp" class="form-text text-muted">Enter your email.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">CreatedDate</label>
+    <input type="date" class="form-control"  asp-for="AddEmployeeRequest.CreatedDate"/>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Post</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""  asp-for="AddEmployeeRequest.Post"/>
+  </div>
+  
+  <button  style="margin-top:10px;"type="submit" class="btn btn-primary">Submit</button>
+</form>

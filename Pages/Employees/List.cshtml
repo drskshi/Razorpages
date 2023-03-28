@@ -1,0 +1,34 @@
+﻿@page
+@model ISMT_Mart.Pages.Employees.ListModel
+@{
+}
+<h1>List of Employee</h1>
+@if (Model.Employees != null && Model.Employees.Any())
+{
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var Employee in Model.Employees)
+    {
+        <tr>
+            <td>@Employee.Id</td>
+            <td>@Employee.Name</td>
+            <td>@Employee.Email</td>
+            <td><a href="/Employees/Edit/@Employee.Id" class="btn btn-black">Edit</a></td>
+
+        </tr>
+    }   
+  </tbody>
+</table>
+}
+else
+{
+    <p>No employeee</p>
+}

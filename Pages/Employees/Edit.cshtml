@@ -1,0 +1,45 @@
+﻿ @page "{id:Guid}"
+@model ISMT_Mart.Pages.Employees.EditModel
+@{
+
+    var message =ViewData["Message"]?.ToString();
+}
+<h1 class="mb-3">Edit Employee</h1>
+
+
+@if (!string.IsNullOrWhiteSpace(message))
+{
+    <div class="alert alert-success" role="dialog">
+        @message
+    </div>
+}
+<form method="post" style="width:30%; margin:5px;">
+  <div class="form-group">
+    <label for="exampleInputPassword1">Id</label>
+    <input type="text" class="form-control" asp-for="EditEmployeeViewModel.Name" readonly/>
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Name</label>
+    <input type="text" class="form-control" placeholder="Enter your name" asp-for="EditEmployeeViewModel.Name"/>
+    <small id="emailHelp" class="form-text text-muted">Enter the full name.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control"  placeholder="Enter email"  asp-for="EditEmployeeViewModel.Email"/>
+ 
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">CreatedDate</label>
+    <input type="date" class="form-control"  asp-for="EditEmployeeViewModel.CreatedDate"/>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Post</label>
+    <input type="text" class="form-control" asp-for="EditEmployeeViewModel.Post"/>
+  </div>
+  
+  <div class="mb-3 d-flex justify-content-between">
+      <button  style="margin-top:10px;"type="submit" class="btn btn-primary" asp-page-handler="Update">Update</button>
+
+      <button  style="margin-top:10px;"type="submit" class="btn btn-danger" asp-page-handler="Delete">Delete</button>
+  </div>
+</form>
